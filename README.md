@@ -71,8 +71,22 @@ AAPM project/
 ### 1. Dynamic AI Roadmap View
 Parsable generated project plans into collapsible Month, Week, and Day units.
 
+<img width="1437" height="820" alt="Screenshot 2026-09-11 155122" src="https://github.com/user-attachments/assets/2d2f3a1f-f5ab-440d-8880-898898358677" />
+
+<img width="1440" height="972" alt="Screenshot 2026-09-11 155146" src="https://github.com/user-attachments/assets/9efacd92-6458-4859-a3bb-15264d16392c" />
+
+<img width="1470" height="795" alt="Screenshot 2026-09-11 155218" src="https://github.com/user-attachments/assets/b650cd7f-2708-4f3d-8ffa-3be95084d2fc" />
+
 ### 2. Analytics & Progress Dashboard
 Real-time task state updates, automated progress calculation, and phase tracking.
+
+<img width="1911" height="965" alt="Screenshot 2026-09-11 155042" src="https://github.com/user-attachments/assets/c707bf2b-0ece-434d-8ac9-800d7566f9d2" />
+
+<img width="1237" height="900" alt="Screenshot 2026-09-11 155231" src="https://github.com/user-attachments/assets/6da083e4-078d-4ac4-ab91-36865926f2d1" />
+
+<img width="1160" height="797" alt="Screenshot 2026-09-11 155244" src="https://github.com/user-attachments/assets/d6087e25-114d-41e1-a9a2-335d5d462ff0" />
+
+<img width="1108" height="807" alt="Screenshot 2026-09-11 155302" src="https://github.com/user-attachments/assets/d7de39b9-2598-4823-a2a9-7ff2a1f82445" />
 
 ---
 
