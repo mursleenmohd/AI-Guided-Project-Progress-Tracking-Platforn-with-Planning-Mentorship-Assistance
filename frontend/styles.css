@@ -1,0 +1,76 @@
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    background: #090d16;
+}
+::-webkit-scrollbar-thumb {
+    background: #1e293b;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #334155;
+}
+
+.nav-btn.active {
+    background-color: #1e293b;
+    color: #ffffff !important;
+}
+
+.prose h1, .prose h2, .prose h3, .prose h4 {
+    color: #f8fafc !important;
+    margin-top: 1.5em !important;
+    margin-bottom: 0.6em !important;
+    font-weight: 700 !important;
+}
+.prose h1 { 
+    font-size: 1.5rem !important; 
+    border-bottom: 1px solid #334155; 
+    padding-bottom: 0.4rem; 
+}
+.prose h2 { 
+    font-size: 1.25rem !important; 
+    border-bottom: 1px solid #1e293b; 
+    padding-bottom: 0.3rem; 
+}
+.prose h3 { 
+    font-size: 1.1rem !important; 
+}
+.prose p {
+    margin-top: 0.8em !important;
+    margin-bottom: 0.8em !important;
+    line-height: 1.7 !important;
+    color: #cbd5e1 !important;
+}
+.prose ul, .prose ol {
+    margin-top: 0.5em !important;
+    margin-bottom: 0.8em !important;
+    padding-left: 1.5rem !important;
+}
+.prose li {
+    margin-top: 0.3em !important;
+    margin-bottom: 0.3em !important;
+    color: #cbd5e1 !important;
+}
+.prose strong { 
+    color: #f1f5f9 !important; 
+    font-weight: 600 !important; 
+}
+.prose code { 
+    background-color: #0f172a; 
+    color: #38bdf8; 
+    padding: 2px 6px; 
+    border-radius: 4px; 
+    font-size: 0.85em; 
+}
+.prose pre { 
+    background-color: #020617 !important; 
+    border: 1px solid #1e293b; 
+    border-radius: 12px; 
+    padding: 1rem; 
+    overflow-x: auto; 
+}
+.prose hr { 
+    border-color: #334155 !important; 
+    margin: 1.5em 0 !important; 
+}

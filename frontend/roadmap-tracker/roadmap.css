@@ -1,0 +1,50 @@
+.main-card {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.day-card {
+    transition: all 0.2s ease-in-out;
+    user-select: none;
+}
+
+.day-card-completed {
+    background-color: rgba(6, 78, 59, 0.2) !important;
+    border-color: rgba(16, 185, 129, 0.4) !important;
+}
+.day-card-completed:hover {
+    border-color: rgba(16, 185, 129, 0.8) !important;
+    transform: translateY(-2px);
+}
+
+.day-card-progress {
+    background-color: rgba(30, 58, 138, 0.2) !important;
+    border-color: rgba(59, 130, 246, 0.4) !important;
+}
+.day-card-progress:hover {
+    border-color: rgba(59, 130, 246, 0.8) !important;
+    transform: translateY(-2px);
+}
+
+.day-card-pending {
+    background-color: rgba(15, 23, 42, 0.6) !important;
+    border-color: rgba(51, 65, 85, 0.6) !important;
+}
+.day-card-pending:hover {
+    border-color: rgba(99, 102, 241, 0.5) !important;
+    transform: translateY(-2px);
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+::-webkit-scrollbar-track {
+    background: #020617;
+}
+::-webkit-scrollbar-thumb {
+    background: #1e293b;
+    border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #334155;
+}

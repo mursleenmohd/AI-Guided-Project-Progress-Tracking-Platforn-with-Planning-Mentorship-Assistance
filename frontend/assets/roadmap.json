@@ -1,0 +1,32 @@
+[
+  {
+    "day": 1,
+    "phase": "Phase 1: Planning & Setup",
+    "week": "Week 1: Architecture & Requirements",
+    "title": "System Architecture & Requirements",
+    "milestone": "Define core user flows and technical requirements.",
+    "libraries": ["zod", "jsonwebtoken"],
+    "checkpoint": "Architecture specification documented.",
+    "status": "pending"
+  },
+  {
+    "day": 2,
+    "phase": "Phase 1: Planning & Setup",
+    "week": "Week 1: Architecture & Requirements",
+    "title": "Database Schema & API Design",
+    "milestone": "Draft entity relations and API routing specification.",
+    "libraries": ["mongoose", "prisma"],
+    "checkpoint": "Schema and API structure approved.",
+    "status": "pending"
+  },
+  {
+    "day": 3,
+    "phase": "Phase 2: Core Development",
+    "week": "Week 2: Backend & Logic",
+    "title": "API Implementation & Integration",
+    "milestone": "Develop functional backend API modules.",
+    "libraries": ["express", "dotenv"],
+    "checkpoint": "Endpoints responding with sample payloads.",
+    "status": "pending"
+  }
+]

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AAPM - AI Guided Project Progress & Mentorship</title>
+    <link rel="stylesheet" href="landing.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-brain-circuit"></i> AAPM<span>STUDIO</span>
+            </a>
+            <nav class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#mentorship">AI Mentorship</a>
+                <a href="#reviews">Reviews</a>
+            </nav>
+            <div class="nav-actions">
+                <button type="button" class="btn btn-secondary" onclick="openAuthModal('login')">Sign In</button>
+                <button type="button" class="btn btn-primary" onclick="openAuthModal('signup')">Sign Up Free</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="badge">
+                    <i class="fa-solid fa-sparkles"></i> AI-Powered 24/7 Project Mentor
+                </div>
+                <h1>Stop Getting Stuck On Projects. <span class="gradient-text">Build & Scale With AI Guidance.</span></h1>
+                <p>An intelligent platform that breaks your complex project into actionable roadmaps, tracks velocity in real-time, and provides instant code-aware AI mentorship.</p>
+                
+                <div class="hero-cta">
+                    <button type="button" onclick="openAuthModal('signup')" class="btn btn-primary btn-large">
+                        Get Started for Free <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                    <a href="#demo" class="btn btn-outline btn-large">
+                        <i class="fa-solid fa-circle-play"></i> Watch Demo
+                    </a>
+                </div>
+
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <h3>10x</h3>
+                        <p>Faster Project Completion</p>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <h3>24/7</h3>
+                        <p>Code & Architecture Help</p>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <h3>99%</h3>
+                        <p>Milestone Accuracy</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-image-wrapper">
+                <div class="glow-effect"></div>
+                <img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=1000&q=80" alt="AAPM Dashboard Overview" class="hero-img">
+                
+                <div class="floating-card card-1">
+                    <i class="fa-solid fa-circle-check text-success"></i>
+                    <div>
+                        <h4>Backend Milestone Reached</h4>
+                        <p>FastAPI Authentication Ready</p>
+                    </div>
+                </div>
+
+                <div class="floating-card card-2">
+                    <i class="fa-solid fa-robot text-accent"></i>
+                    <div>
+                        <h4>AI Mentor Suggestion</h4>
+                        <p>Optimize your agent async loop</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Built For Builders Who Demand <span class="gradient-text">Speed & Perfection</span></h2>
+                <p>Everything you need from initial system architecture to final deployment code reviews.</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="icon-box"><i class="fa-solid fa-sitemap"></i></div>
+                    <h3>Automated Roadmap Planning</h3>
+                    <p>Input your project goal, and our Orchestrator Agent breaks it into realistic, multi-phase sprints.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="icon-box"><i class="fa-solid fa-user-ninja"></i></div>
+                    <h3>Dedicated Sub-Agent Mentors</h3>
+                    <p>Get specialized help from specialized agents for Code Quality, Database Architecture, and System Design.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="icon-box"><i class="fa-solid fa-chart-line-up"></i></div>
+                    <h3>Real-Time Velocity Tracking</h3>
+                    <p>Monitor your actual progress against projected timelines with automated blockers identification.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="mentorship" class="showcase">
+        <div class="container showcase-container">
+            <div class="showcase-image">
+                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80" alt="Students building projects with AI Tutor">
+            </div>
+            <div class="showcase-content">
+                <div class="badge">Your Personal AI Mentor</div>
+                <h2>Never Wait For Code Reviews Or Debugging Assistance Again</h2>
+                <p>AAPM acts as a senior engineer sitting right next to you. It reviews pull requests, suggests system architecture fixes, and keeps you accountable daily.</p>
+                
+                <ul class="checklist">
+                    <li><i class="fa-solid fa-circle-check"></i> Instant resolution for complex backend & frontend blockers.</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Automated prompt suggestions custom to your codebase.</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Interactive progress reports for mentors & college evaluators.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <div id="auth-modal" class="modal-overlay hidden">
+        <div class="modal-card">
+            <button type="button" class="modal-close" onclick="closeAuthModal()">&times;</button>
+            
+            <div class="modal-tabs">
+                <button type="button" id="tab-login" class="tab-btn active" onclick="switchTab('login')">Sign In</button>
+                <button type="button" id="tab-signup" class="tab-btn" onclick="switchTab('signup')">Sign Up</button>
+            </div>
+
+            <form id="login-form" class="auth-form" onsubmit="handleAuth(event, 'login')">
+                <h3>Welcome Back</h3>
+                <div class="input-group">
+                    <label>Email</label>
+                    <input type="email" id="login-email" required placeholder="name@gmail.com">
+                </div>
+                <div class="input-group">
+                    <label>Password</label>
+                    <input type="password" id="login-password" required placeholder="••••••••">
+                </div>
+                <button type="submit" class="btn btn-primary btn-full">Sign In to Workspace</button>
+            </form>
+
+            <form id="signup-form" class="auth-form hidden" onsubmit="handleAuth(event, 'signup')">
+                <h3>Create Account</h3>
+                <div class="input-group">
+                    <label>Full Name / Username</label>
+                    <input type="text" id="signup-username" required placeholder="Enter username">
+                </div>
+                <div class="input-group">
+                    <label>Email</label>
+                    <input type="email" id="signup-email" required placeholder="name@gmail.com">
+                </div>
+                <div class="input-group">
+                    <label>Password</label>
+                    <input type="password" id="signup-password" required placeholder="••••••••">
+                </div>
+                <button type="submit" class="btn btn-primary btn-full">Register Account</button>
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <i class="fa-solid fa-brain-circuit"></i> AAPM<span>STUDIO</span>
+                </a>
+                <p>AI Guided Project Progress Tracking Platform with Planning & Mentorship Assistance.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Product</h4>
+                <a href="#features">Features</a>
+                <a href="#how-it-works">Roadmap</a>
+                <a href="#mentorship">AI Mentor</a>
+            </div>
+            <div class="footer-links">
+                <h4>Account</h4>
+                <button type="button" onclick="openAuthModal('login')" style="background:none; border:none; color:inherit; cursor:pointer; padding:0; font:inherit;">Login</button>
+            </div>
+        </div>
+        <div class="footer-bottom container">
+            <p>&copy; 2026 AAPM Studio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="landing.js"></script>
+</body>
+</html>
